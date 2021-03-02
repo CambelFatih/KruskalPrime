@@ -1,7 +1,7 @@
 # KruskalPrime
 Kruskal and Prima Create Graph Algorithm 
 Turkish Languege
- +-+-++-+-+-+-+-GRAF OLUSTURMA MANTIĞI +-+-+-+-+-+-+-+-+
+ +-+-GRAF OLUSTURMA MANTIĞI +-+-+-+
  Lutfen Programı Çalıştırmadan Önce Burada Yazan Talimatları Okuyunuz...
  -program başladığında Sol alttaki picturebox1'e tıklayarak node ekleyebilirsiniz.
  -kaç adet node ekleyecekseniz ilk önce nodeları ekleyip ondan sonra matrix olustur buttonuna basmalısınız.
