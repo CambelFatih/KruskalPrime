@@ -52,3 +52,12 @@ C:\Users\Fatih Furkan Çambel\Documents\github\KruskalPrime\move_or_copy_a_line\
 C:\Users\Fatih Furkan Çambel\Documents\github\KruskalPrime\move_or_copy_a_line\obj\Debug\move_or_copy_a_line.Form1.resources
 C:\Users\Fatih Furkan Çambel\Documents\github\KruskalPrime\move_or_copy_a_line\obj\Debug\move_or_copy_a_line.Properties.Resources.resources
 C:\Users\Fatih Furkan Çambel\Documents\github\KruskalPrime\move_or_copy_a_line\obj\Debug\Kurskal_Prim.csproj.GenerateResource.Cache
+C:\Users\Fatih Furkan Çambel\Desktop\KruskalPrime\move_or_copy_a_line\bin\Debug\move_or_copy_a_line.exe.config
+C:\Users\Fatih Furkan Çambel\Desktop\KruskalPrime\move_or_copy_a_line\obj\Debug\move_or_copy_a_line.exe
+C:\Users\Fatih Furkan Çambel\Desktop\KruskalPrime\move_or_copy_a_line\obj\Debug\move_or_copy_a_line.pdb
+C:\Users\Fatih Furkan Çambel\Desktop\KruskalPrime\move_or_copy_a_line\bin\Debug\move_or_copy_a_line.exe
+C:\Users\Fatih Furkan Çambel\Desktop\KruskalPrime\move_or_copy_a_line\bin\Debug\move_or_copy_a_line.pdb
+C:\Users\Fatih Furkan Çambel\Desktop\KruskalPrime\move_or_copy_a_line\obj\Debug\Kurskal_Prim.csprojResolveAssemblyReference.cache
+C:\Users\Fatih Furkan Çambel\Desktop\KruskalPrime\move_or_copy_a_line\obj\Debug\move_or_copy_a_line.Form1.resources
+C:\Users\Fatih Furkan Çambel\Desktop\KruskalPrime\move_or_copy_a_line\obj\Debug\move_or_copy_a_line.Properties.Resources.resources
+C:\Users\Fatih Furkan Çambel\Desktop\KruskalPrime\move_or_copy_a_line\obj\Debug\Kurskal_Prim.csproj.GenerateResource.Cache

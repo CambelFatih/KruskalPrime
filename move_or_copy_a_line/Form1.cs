@@ -1,16 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Drawing2D;
 using System.Threading;
-using System.Text.RegularExpressions;
 /*
+ * English Languegue
+ * English explanation of Kruskal and Prim's algorithm Program prepared with Google translation.
+ * + - + - ++ - + - + - + - + - GRAPHICATION LOGIC + - + - + - + - + - + - + - + - +
+ Please Read The Instructions That Are Written Here Before Running The Program ...
+ -When the program starts, you can add a node by clicking picturebox1 at the bottom left.
+ -If you are going to add several nodes, you must first add the nodes and then press the create matrix button.
+ -Please click the create matrix button after creating as many nodes as the number of nodes you will add.
+ When the create matrix button is clicked, a matrix is ​​created on the tabpage1 page of the tabcontrol object on the right.
+ -If you press the mouse's left click on the buttons in the matrix, the connection between the nodes is established and on each click.
+  The cost between nodes increases one by one, and you will see it increase faster if you hold it down.
+ If you press the right click of the -mouse, the length-cost between nodes will decrease and if you hold it down, it will decrease faster.
+ When you press the buttons on the matrix or press a node and press another node, you establish a connection between nodes.
+ The number of nodes is limited to 12 because the matrix can fit as much as the size of the -tabepage1 object.
+ If you created the -graf, you can choose one of the radiobuttons and press the Run Button
+ When you press run, in tabpage2, the algorithm prints out which nodes and minimum total losses.
+ -If the graph structure you created is wrong or you want to create a new graph
+  You can click the create new graph button in the lower left corner.
+ -If you click on the checkbox1 object whose text name is 'grid' in the lower left corner, you will change the background of the picturebox1.
+ -When you run one of the kruskal or premium algorithms, there are color changes in the graph structure.
+  The refresh button is used to restore it.
+ * */
+
+/*
+ * Orgin Turkish Languegue  
  +-+-++-+-+-+-+-GRAF OLUSTURMA MANTIĞI +-+-+-+-+-+-+-+-+
  Lutfen Programı Çalıştırmadan Önce Burada Yazan Talimatları Okuyunuz...
  -program başladığında Sol alttaki picturebox1'e tıklayarak node ekleyebilirsiniz.
@@ -77,7 +95,6 @@ namespace move_or_copy_a_line
             _move.SetMovable(panel1);
             _move.SetMovable(label1);
             timer1.Interval = 100;
-            timer2.Interval = 1000;
         }
         static int find(int i,int  []parent)
         {
@@ -153,7 +170,7 @@ namespace move_or_copy_a_line
 
                 union1(a, b,parent);
                 if(a!=-1||b!=-1)
-                textBox2.Text += " Kenar " + edge_count + " : (" + a + ", " + b + ") Maliyet : " + min + " " + Environment.NewLine;
+                textBox2.Text += " Edge " + edge_count + " : (" + a + ", " + b + ") Cost : " + min + " " + Environment.NewLine;
                 Console.Write("Edge {0}:({1}, {2}) cost:{3} \n",
                     edge_count, a, b, min);
                 edge_count++;
@@ -183,7 +200,7 @@ namespace move_or_copy_a_line
                 }                                             
             }
             if(mincost<2147000000&&mincost>0)
-            textBox2.Text += " Minimum Maliyet = "+mincost;
+            textBox2.Text += " Minimum Cost = "+mincost;
         }
         private void Prim_minimum_spanning_tree()
         {
@@ -204,7 +221,7 @@ namespace move_or_copy_a_line
             }
             if(knkg==false)
             {
-                MessageBox.Show("BAŞLANGIÇ NODU RASTGELE OLARAK '0'ATANMISDIR '0'NODUNUN DIGER NODLARLA BIR BAGLANTISI OLMALIDIR");
+                MessageBox.Show("THE INITIAL NODE IS RANDOM 'ATTACHED TO 0' NODE SHOULD HAVE A CONNECTION WITH OTHER NODES");
             }
             int Max = 100, n = simdilik + 1;
             Console.WriteLine("simdilik" + (simdilik + 1));
@@ -277,7 +294,7 @@ namespace move_or_copy_a_line
                 spanning[v, u] = distance[v];
                 no_of_edges--;
                 visited[v] = 1;     
-                textBox2.Text += " Kenar " + edge_count + " : (" + u + ", " + v + ") Maliyet : " + spanning[u, v]+""+ Environment.NewLine ;
+                textBox2.Text += " Edge " + edge_count + " : (" + u + ", " + v + ") Cost : " + spanning[u, v]+""+ Environment.NewLine ;
                 edge_count++;
                 
                 for (i = 1; i < n; i++)
@@ -289,7 +306,7 @@ namespace move_or_copy_a_line
 
                 min_cost = min_cost + cost[u, v];
             }
-            textBox2.Text += " Minimum Maliyet = " + min_cost + "";
+            textBox2.Text += " Minimum Cost= " + min_cost + "";
         }
         private void Matrix_olustur_Click(object sender, EventArgs e)
         {
@@ -623,17 +640,6 @@ namespace move_or_copy_a_line
         {
             Application.Restart();
         }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             for (int i = 0; i <= MyLines.Count - 1; i++)
@@ -697,7 +703,7 @@ namespace move_or_copy_a_line
                     }
                     catch (Exception es)
                     {
-                        MessageBox.Show("LÜTFEN MATRİX'i OLUŞTURMADAN GRAF BAĞLANTISI KURMAYIN" + es.ToString());
+                        MessageBox.Show("PLEASE DO NOT LINK TO GRAPH WITHOUT CREATING MATRIX" + es.ToString());
                     }
 
                 }
@@ -779,7 +785,7 @@ namespace move_or_copy_a_line
         {
             label1.Parent = panel1;
             label1.BackColor = Color.Transparent;
-            label1.Text = "Minimum Spanning Tree Algoritmalası";
+            label1.Text = "Minimum Spanning Tree Algorithm";
             label1.ForeColor = Color.FromArgb(252, 253, 205);//.White;///Color.FromArgb(252, 253, 205);
             tabPage1.BackColor = Color.FromArgb(255, 149, 1);//Color.FromArgb(19, 130, 175);
             textBox2.BackColor = Color.FromArgb(255, 149, 1);//Color.FromArgb(245, 146, 81);
@@ -904,7 +910,7 @@ namespace move_or_copy_a_line
             }
             else if(simdilik>=12&&nodecntrl==false)
             {
-                MessageBox.Show("Bu programda maximum node sayısı 12 olarak belirlenmiştir...");
+                MessageBox.Show("In this program, the maximum number of nodes is 12 !!!");
                 nodecntrl = true;
 
             }
