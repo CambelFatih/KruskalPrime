@@ -1,10 +1,9 @@
 English Languege
 The purpose of the program
-Minimum spanning tree Kruskal algorithm and Minimum spanning tree Premium algorithm
-It is to be able to comprehend better as their application.
-+ - + - ++ - + - + - + - + - GRAPHICATION LOGIC + - + - + - + - + - + - + - + - +
+Minimum spanning tree Kruskal algorithm and Minimum spanning tree Premium algorithm It is to be able to comprehend better as their application.
+GRAPHICATION LOGIC
 Please Read The Instructions That Are Written Here Before Running The Program ...
-- When the program starts, you can add a node by clicking picturebox1 at the bottom left.
+• When the program starts, you can add a node by clicking picturebox1 at the bottom left.
 • How many nodes you will create, you must first create the nodes and then click the create matrix button.
 • Please click the create matrix button after adding as many nodes as the number of nodes you will add.
 • When the create matrix button is clicked, a matrix is created on the tabpage1 page of the tabcontrol object on the right.
