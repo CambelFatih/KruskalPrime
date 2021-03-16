@@ -5,26 +5,29 @@ using System.Windows.Forms;
 using System.Drawing.Drawing2D;
 using System.Threading;
 /*
- * English Languegue
- * English explanation of Kruskal and Prim's algorithm Program prepared with Google translation.
- * + - + - ++ - + - + - + - + - GRAPHICATION LOGIC + - + - + - + - + - + - + - + - +
- Please Read The Instructions That Are Written Here Before Running The Program ...
- -When the program starts, you can add a node by clicking picturebox1 at the bottom left.
- -If you are going to add several nodes, you must first add the nodes and then press the create matrix button.
- -Please click the create matrix button after creating as many nodes as the number of nodes you will add.
- When the create matrix button is clicked, a matrix is ​​created on the tabpage1 page of the tabcontrol object on the right.
- -If you press the mouse's left click on the buttons in the matrix, the connection between the nodes is established and on each click.
-  The cost between nodes increases one by one, and you will see it increase faster if you hold it down.
- If you press the right click of the -mouse, the length-cost between nodes will decrease and if you hold it down, it will decrease faster.
- When you press the buttons on the matrix or press a node and press another node, you establish a connection between nodes.
- The number of nodes is limited to 12 because the matrix can fit as much as the size of the -tabepage1 object.
- If you created the -graf, you can choose one of the radiobuttons and press the Run Button
- When you press run, in tabpage2, the algorithm prints out which nodes and minimum total losses.
- -If the graph structure you created is wrong or you want to create a new graph
-  You can click the create new graph button in the lower left corner.
- -If you click on the checkbox1 object whose text name is 'grid' in the lower left corner, you will change the background of the picturebox1.
- -When you run one of the kruskal or premium algorithms, there are color changes in the graph structure.
-  The refresh button is used to restore it.
+English Languege
+The purpose of the program
+Minimum spanning tree Kruskal algorithm and Minimum spanning tree Premium algorithm
+It is to be able to comprehend better as their application.
++ - + - ++ - + - + - + - + - GRAPHICATION LOGIC + - + - + - + - + - + - + - + - +
+Please Read The Instructions That Are Written Here Before Running The Program ...
+• When the program starts, you can add a node by clicking picturebox1 at the bottom left.
+• How many nodes you will create, you must first create the nodes and then click the create matrix button.
+• Please click the create matrix button after adding as many nodes as the number of nodes you will add.
+• When the create matrix button is clicked, a matrix is created on the tabpage1 page of the tabcontrol object on the right.
+• If you press the left click of the mouse on the buttons in the matrix, the connection between the nodes is established and the cost between the nodes increases one by one with each click, and you will see that it increases faster.
+• If you press the mouse's right click, the length-cost between nodes decreases. it decreases faster if you hold it down.
+• By pressing the buttons on the matrix or pressing a node and pressing another node, you establish a connection between nodes.
+• The number of nodes is limited to 12 as the matrix can fit as much as the size of the tabepage1 object.
+• If you created the graf, you can select one of the Kruskal or Prim's algorithms and press the run button.
+• When you click the Run button, you can follow through which nodes the algorithm has passed and its total loss from the cost list section.
+• If the graph structure you created is wrong or you want to create a new graph
+  You can click the create a new graph button in the lower left corner.
+• If you click on the checkbox1 object whose text name is 'grid' in the lower left corner, you will change the background of the picturebox1.
+• When you run any of the kruskal or premium algorithms, color changes occur in the graph structure, and the refresh button is used to restore the color changes.
+• Bonus algorithm starts from 0 node.
+• For the Kruskal algorithm to work properly, please make a connection between all nodes. Establish the connections of unconnected nodes.
+
  * */
 
 /*
