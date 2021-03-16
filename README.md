@@ -1,3 +1,8 @@
+Create the matrix after adding your nodes. Tapping the nodes increases their cost.
+![12](https://user-images.githubusercontent.com/79880394/111367174-82f8c780-86a5-11eb-8715-dd37960b529a.png)
+Select the algorithm you want Kruskal or Prim's and press run.
+![3](https://user-images.githubusercontent.com/79880394/111367322-ade31b80-86a5-11eb-9c64-133e642d3ebd.png)
+![4](https://user-images.githubusercontent.com/79880394/111367337-b2a7cf80-86a5-11eb-926f-201751fe747e.png)
 English Languege
 The purpose of the program
 Minimum spanning tree Kruskal algorithm and Minimum spanning tree Premium algorithm It is to be able to comprehend better as their application.
