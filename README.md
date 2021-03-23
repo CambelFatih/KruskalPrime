@@ -27,6 +27,7 @@ is established and the cost between the nodes increases one by one with each cli
 • Bonus algorithm starts from 0 node.
 • For the Kruskal algorithm to work properly, please make a connection between all nodes. Establish the connections of unconnected nodes.
 
+Minimum Spaning Tree Create Graph Algorithm
 
 Turkish Languegue
 Programın amacı
