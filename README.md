@@ -40,4 +40,3 @@ Lutfen programı çalıştırmadan önce talimatları okuyunuz...
 * kruskal veya prim algoritmalarından birini çalıştırdığınızda graf yapısında renk değişimleri olur renk değişimlerini eski haline getirmek için yenile buttonu kullanılır. 
 * Prim algoritması 0 nodundan başlamaktadır.
 * Kruskal algoritmasının düzgün çalışması için lütfen bütün node’lar arasında bağlantı Kurunuz. Bağlantısı olmayan düğümlerin bağlantılarını kurunuz.
-Minimum Spaning Tree Create Graph Algorithm 
