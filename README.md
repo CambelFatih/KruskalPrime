@@ -26,10 +26,10 @@ is established and the cost between the nodes increases one by one with each cli
 ## Talimatlar
 Lutfen programı çalıştırmadan önce talimatları okuyunuz...
 * program başladığında beyaz ekrana tıklayarak düğüm(node) ekleyebilirsiniz.
-* kaç adet düğüm oluşturacaksanız, ilk önce düğümleri oluşturup ondan sonra matriks oluştur buttonuna basmalısınız.                                                     
-* lütfen matrix oluştur buttonuna ekleyeceğiniz düğüm sayısı kadar düğüm ekledikten sonra basınız.
-* matrix olustur butonuna basıldığında sağ taraftaki tabcontrol nesnesinin tabpage1 sayfasına matrix olusturulur.
-* matrixdeki buttonlara mouse'un left click(sol tık)'a basarsanız nodelar arasında bağlantı kurulur ve her bir tıklamada nodelar arasındaki maliyet birer birer artar basılı tutarsanız daha hızlı arttığını göreceksiniz.
+* kaç adet düğüm oluşturacaksanız, ilk önce düğümleri oluşturup ondan sonra matris oluştur buttonuna basmalısınız.                                                     
+* lütfen matris oluştur buttonuna ekleyeceğiniz düğüm sayısı kadar düğüm ekledikten sonra basınız.
+* matris olustur butonuna basıldığında sağ taraftaki tabcontrol nesnesinin tabpage1 sayfasına matrix olusturulur.
+* matrisdeki butonlara mouse'un left click(sol tık)'a basarsanız nodelar arasında bağlantı kurulur ve her bir tıklamada nodelar arasındaki maliyet birer birer artar basılı tutarsanız daha hızlı arttığını göreceksiniz.
 * mouse'un right click(sağ tık)'a basarsanız node’lar arası uzunluk-maliyet  azalır. basılı tutarsanız daha hızlı azalır.
 * matrixdeki buttonlara basarak veya bir noda basıp başka bir noda bastığınızda node'lar arası bağlantı kurmuş olursunuz.
 * tabepage1 nesnesinin boyutu kadar matrix sığabildiği için node sayısı 12 ile sınırlandırılmıştır.
