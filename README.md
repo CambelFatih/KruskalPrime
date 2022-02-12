@@ -1,4 +1,4 @@
-# Minimum-Spanning-Tree
+# Minimum-Spanning-Tree Minimum Spaning Tree Create Graph Algorithm
 ### Create the matrix after adding your nodes. Tapping the nodes increases their cost.
 ![12](https://user-images.githubusercontent.com/79880394/111367174-82f8c780-86a5-11eb-8715-dd37960b529a.png)
 ### Select the algorithm you want Kruskal or Prim's and press run.
@@ -23,11 +23,7 @@ is established and the cost between the nodes increases one by one with each cli
 * When you run any of the kruskal or premium algorithms, color changes occur in the graph structure, and the refresh button is used to restore the color changes.
 * Bonus algorithm starts from 0 node.
 * For the Kruskal algorithm to work properly, please make a connection between all nodes. Establish the connections of unconnected nodes.
-
-Minimum Spaning Tree Create Graph Algorithm
-
 ## Turkish Languegue
-### +-+-++-+-+-+-+-GRAF OLUSTURMA MANTIĞI +-+-+-+-+-+-+-+-+
 Lutfen programı çalıştırmadan önce talimatları okuyunuz...
 * program başladığında Sol alttaki picturebox1'e tıklayarak node ekleyebilirsiniz.
 * kaç adet düğüm oluşturacaksanız, ilk önce düğümleri oluşturup ondan sonra matriks oluştur buttonuna basmalısınız.                                                     
