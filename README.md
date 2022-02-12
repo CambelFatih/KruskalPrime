@@ -6,7 +6,7 @@
 ![4](https://user-images.githubusercontent.com/79880394/111367337-b2a7cf80-86a5-11eb-926f-201751fe747e.png)
 ## Instructions
 Please Read The Instructions That Are Written Here Before Running The Program ...
-* When the program starts, you can add a node by clicking picturebox1 at the bottom left.
+* When the program starts, you can add nodes by clicking on the white screen
 * How many nodes you will create, you must first create the nodes and then click the create matrix button.
 * Please click the create matrix button after adding as many nodes as the number of nodes you will add.
 * When the create matrix button is clicked, a matrix is created on the tabpage1 page of the tabcontrol object on the right.
@@ -25,7 +25,7 @@ is established and the cost between the nodes increases one by one with each cli
 * For the Kruskal algorithm to work properly, please make a connection between all nodes. Establish the connections of unconnected nodes.
 ## Talimatlar
 Lutfen programı çalıştırmadan önce talimatları okuyunuz...
-* program başladığında Sol alttaki picturebox1'e tıklayarak node ekleyebilirsiniz.
+* program başladığında beyaz ekrana tıklayarak düğüm(node) ekleyebilirsiniz.
 * kaç adet düğüm oluşturacaksanız, ilk önce düğümleri oluşturup ondan sonra matriks oluştur buttonuna basmalısınız.                                                     
 * lütfen matrix oluştur buttonuna ekleyeceğiniz düğüm sayısı kadar düğüm ekledikten sonra basınız.
 * matrix olustur butonuna basıldığında sağ taraftaki tabcontrol nesnesinin tabpage1 sayfasına matrix olusturulur.
