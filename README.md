@@ -4,7 +4,7 @@
 ### Select the algorithm you want Kruskal or Prim's and press run.
 ![3](https://user-images.githubusercontent.com/79880394/111367322-ade31b80-86a5-11eb-9c64-133e642d3ebd.png)
 ![4](https://user-images.githubusercontent.com/79880394/111367337-b2a7cf80-86a5-11eb-926f-201751fe747e.png)
-## English Languege
+## Instructions
 Please Read The Instructions That Are Written Here Before Running The Program ...
 * When the program starts, you can add a node by clicking picturebox1 at the bottom left.
 * How many nodes you will create, you must first create the nodes and then click the create matrix button.
@@ -23,7 +23,7 @@ is established and the cost between the nodes increases one by one with each cli
 * When you run any of the kruskal or premium algorithms, color changes occur in the graph structure, and the refresh button is used to restore the color changes.
 * Bonus algorithm starts from 0 node.
 * For the Kruskal algorithm to work properly, please make a connection between all nodes. Establish the connections of unconnected nodes.
-## Turkish Languegue
+## Talimatlar
 Lutfen programı çalıştırmadan önce talimatları okuyunuz...
 * program başladığında Sol alttaki picturebox1'e tıklayarak node ekleyebilirsiniz.
 * kaç adet düğüm oluşturacaksanız, ilk önce düğümleri oluşturup ondan sonra matriks oluştur buttonuna basmalısınız.                                                     
